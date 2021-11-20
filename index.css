@@ -55,3 +55,22 @@ line-height: 22px;
 color: red;
 
 }
+
+img{
+
+    padding: 0;
+    
+    margin-left: 30px;
+    list-style: none;
+    
+    display: flex;
+    align-items: center;
+    
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+
+}
+
