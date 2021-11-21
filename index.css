@@ -1,3 +1,5 @@
+@import "./imedgin/styles/header.css";
+@import "./imedgin/styles/variable.css";
 body{
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -15,62 +17,12 @@ body{
     align-items: center;
 }
 
-header nav ul {
-padding: 0;
 
-margin-left: 73px;
-list-style: none;
-
-display: flex;
-align-items: center;
-
-}
-
-header nav ul li{
-
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
+header button{
 
 
-color: #3E3B3B;
 
-}
 
-header nav ul li:not(:last-child){
-    margin-right: 37px;
-}
 
-header nav ul li:last-child{
-    margin-left: 37px;
-}
-
-header .lang {
-margin-left: 57px;
-font-style: normal;
-font-size: 18px;
-line-height: 22px;
-color: red;
-
-}
-
-img{
-
-    padding: 0;
     
-    margin-left: 30px;
-    list-style: none;
-    
-    display: flex;
-    align-items: center;
-    
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-
-
 }
-
