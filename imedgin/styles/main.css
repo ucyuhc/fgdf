@@ -1,0 +1,35 @@
+main h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+}
+
+h1 span {
+  color: var(--orange);
+}
+
+main .main-text {
+  margin-top: 50px;
+}
+
+main .main-text h2 {
+  margin-top: 50px;
+  max-width: 1277px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  color: var(--black);
+}
+
+main .main-text p {
+  margin-top: 40px;
+  margin-left: 26vw;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+}

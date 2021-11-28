@@ -5,6 +5,11 @@ header {
   padding-bottom: 20px;
 }
 
+header .container {
+  display: flex;
+  align-items: center;
+}
+
 header nav ul {
   padding: 0;
 

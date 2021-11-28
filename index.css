@@ -1,28 +1,14 @@
-@import "./imedgin/styles/header.css";
 @import "./imedgin/styles/variable.css";
-body{
-    font-family: 'Montserrat Alternates', sans-serif;
+@import "./imedgin/styles/header.css";
+@import "./imedgin/styles/breadcrumps.css";
+@import "./imedgin/styles/main.css";
+body {
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
-.container{
-
-    width: 100%;
-    max-width: 1420px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 70px;
-    background: green;
-
-    display: flex;
-    align-items: center;
-}
-
-
-header button{
-
-
-
-
-
-    
+.container {
+  width: 100%;
+  max-width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
 }
