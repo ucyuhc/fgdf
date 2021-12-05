@@ -33,3 +33,50 @@ main .main-text p {
   font-size: 25px;
   line-height: 30px;
 }
+
+main .delivery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main .delivery .delivery-item {
+  background: #ffffff;
+  box-shadow: 0px 2px 13px rgba(255, 190, 46, 0.2);
+  border-radius: 48px;
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+main .delivery .delivery-item.big {
+  width: calc(56.33% - 80px);
+}
+
+main div h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+main div p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+main .delivery .delivery-item.mid {
+  background: #ffffff;
+  box-shadow: 0px 2px 13px rgba(255, 190, 46, 0.2);
+  border-radius: 48px;
+  padding: 40px;
+}
+
+main .delivery .delivery-item.mid {
+  width: calc(39.9% - 80px);
+}
+
+main .delivery .delivery-item.sm {
+  width: calc(32.8% - 80px);
+}
